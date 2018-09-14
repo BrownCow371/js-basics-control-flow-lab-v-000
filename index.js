@@ -3,9 +3,8 @@ function scuberGreetingForFeet(someValue) {
   //this is where we can use conditionals given our argument, someValue
   //don't forget to return whatever the result is!
   let result;
-  switch (someValue) {
-    case (someValue >= 400):
+  if (someValue <= 400) {
       result = "This one is on me!";
-      return result;
     }
+  return result;  
 }
